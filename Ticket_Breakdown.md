@@ -18,12 +18,12 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 ## Your Breakdown Here
 ## Can edit/add agent's custom id to generate report
 
-# AC:
+## AC:
 1. Agents can save their own unique custom id
 2. Can generate reports with their custom id
 
-# Ticket 1: Backend
-# Technical notes:
+## Ticket 1: Backend
+### Technical notes:
 1. Update model for Agents collection for a new "agentId" to save new custom id
 2. Create functionality to validate new custom id is unique and has proper formatting
 3. Update getShiftsByFacility which can map with both "database id" and "agentId"
@@ -32,8 +32,8 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 Estimates : 3 SP
 
-# Ticket 2: Frontend
-# Technical notes:
+## Ticket 2: Frontend
+### Technical notes:
 1. Add a field to save agent's custom id
 2. Add form validation and integration for unique id (id not used before) [Will be dependent upon new backend functionality]
 3. Update report generation UI integration to provide custom id to generate report
