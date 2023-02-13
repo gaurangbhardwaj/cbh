@@ -9,7 +9,7 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
-1. Declare TRIVIAL_PARTITION_KEY and MAX_PARTITION_KEY_LENGTH as default constant, as we don't want to re-initialize every time.
+1. Declared TRIVIAL_PARTITION_KEY and MAX_PARTITION_KEY_LENGTH as default constant, as we don't want to re-initialize every time the default values.
 2. Added a pre check for event, as if input not provided we can direclty provide default TRIVIAL_PARTITION_KEY rather than running whole function.
-3. Simplify all nested if condition for better readablility and used logical OR operator instead of if and conditional operator.
+3. Simplify all nested if condition for better readablility and used logical OR operator instead of "IF" and "conditional operator".
 4. Added three more test cases covering more of the scenario that increases code reliability.
